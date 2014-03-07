@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D868A93D18C975FF0091FE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A93C18C975FF0091FE2F /* Foundation.framework */; };
+		D868A93F18C975FF0091FE2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A93E18C975FF0091FE2F /* CoreGraphics.framework */; };
+		D868A94118C975FF0091FE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A94018C975FF0091FE2F /* UIKit.framework */; };
+		D868A94718C975FF0091FE2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D868A94518C975FF0091FE2F /* InfoPlist.strings */; };
+		D868A94918C975FF0091FE2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D868A94818C975FF0091FE2F /* main.m */; };
+		D868A94D18C975FF0091FE2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D868A94C18C975FF0091FE2F /* AppDelegate.m */; };
+		D868A94F18C975FF0091FE2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D868A94E18C975FF0091FE2F /* Images.xcassets */; };
+		D868A95618C975FF0091FE2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A95518C975FF0091FE2F /* XCTest.framework */; };
+		D868A95718C975FF0091FE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A93C18C975FF0091FE2F /* Foundation.framework */; };
+		D868A95818C975FF0091FE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868A94018C975FF0091FE2F /* UIKit.framework */; };
+		D868A96018C975FF0091FE2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D868A95E18C975FF0091FE2F /* InfoPlist.strings */; };
+		D868A96218C975FF0091FE2F /* LWWebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868A96118C975FF0091FE2F /* LWWebBrowserTests.m */; };
+		D868A96D18C9764C0091FE2F /* LWWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D868A96C18C9764C0091FE2F /* LWWebBrowser.m */; };
+		D868A99718C978A60091FE2F /* LWWebBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D868A99618C978A60091FE2F /* LWWebBrowser.bundle */; };
+		D868A99A18C9AB5D0091FE2F /* LWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D868A99918C9AB5D0091FE2F /* LWNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D868A95918C975FF0091FE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D868A93118C975FF0091FE2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D868A93818C975FF0091FE2F;
+			remoteInfo = LWWebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D868A93918C975FF0091FE2F /* LWWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868A93C18C975FF0091FE2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D868A93E18C975FF0091FE2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D868A94018C975FF0091FE2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D868A94418C975FF0091FE2F /* LWWebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWWebBrowser-Info.plist"; sourceTree = "<group>"; };
+		D868A94618C975FF0091FE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D868A94818C975FF0091FE2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D868A94A18C975FF0091FE2F /* LWWebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		D868A94B18C975FF0091FE2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D868A94C18C975FF0091FE2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D868A94E18C975FF0091FE2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D868A95418C975FF0091FE2F /* LWWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868A95518C975FF0091FE2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D868A95D18C975FF0091FE2F /* LWWebBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWWebBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		D868A95F18C975FF0091FE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D868A96118C975FF0091FE2F /* LWWebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWWebBrowserTests.m; sourceTree = "<group>"; };
+		D868A96B18C9764C0091FE2F /* LWWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWWebBrowser.h; path = LWWebBrowser/LWWebBrowser.h; sourceTree = "<group>"; };
+		D868A96C18C9764C0091FE2F /* LWWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWWebBrowser.m; path = LWWebBrowser/LWWebBrowser.m; sourceTree = "<group>"; };
+		D868A99618C978A60091FE2F /* LWWebBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LWWebBrowser.bundle; path = LWWebBrowser/LWWebBrowser.bundle; sourceTree = "<group>"; };
+		D868A99818C9AB5D0091FE2F /* LWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWNavigationController.h; sourceTree = "<group>"; };
+		D868A99918C9AB5D0091FE2F /* LWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D868A93618C975FF0091FE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A93F18C975FF0091FE2F /* CoreGraphics.framework in Frameworks */,
+				D868A94118C975FF0091FE2F /* UIKit.framework in Frameworks */,
+				D868A93D18C975FF0091FE2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868A95118C975FF0091FE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A95618C975FF0091FE2F /* XCTest.framework in Frameworks */,
+				D868A95818C975FF0091FE2F /* UIKit.framework in Frameworks */,
+				D868A95718C975FF0091FE2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D868A93018C975FF0091FE2F = {
+			isa = PBXGroup;
+			children = (
+				D868A94218C975FF0091FE2F /* LWWebBrowser */,
+				D868A95B18C975FF0091FE2F /* LWWebBrowserTests */,
+				D868A93B18C975FF0091FE2F /* Frameworks */,
+				D868A93A18C975FF0091FE2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D868A93A18C975FF0091FE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D868A93918C975FF0091FE2F /* LWWebBrowser.app */,
+				D868A95418C975FF0091FE2F /* LWWebBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D868A93B18C975FF0091FE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D868A93C18C975FF0091FE2F /* Foundation.framework */,
+				D868A93E18C975FF0091FE2F /* CoreGraphics.framework */,
+				D868A94018C975FF0091FE2F /* UIKit.framework */,
+				D868A95518C975FF0091FE2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D868A94218C975FF0091FE2F /* LWWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D868A94B18C975FF0091FE2F /* AppDelegate.h */,
+				D868A94C18C975FF0091FE2F /* AppDelegate.m */,
+				D868A99818C9AB5D0091FE2F /* LWNavigationController.h */,
+				D868A99918C9AB5D0091FE2F /* LWNavigationController.m */,
+				D868A94E18C975FF0091FE2F /* Images.xcassets */,
+				D868A94318C975FF0091FE2F /* Supporting Files */,
+				D868A99518C978970091FE2F /* LWWebBrowser */,
+			);
+			path = LWWebBrowser;
+			sourceTree = "<group>";
+		};
+		D868A94318C975FF0091FE2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D868A94418C975FF0091FE2F /* LWWebBrowser-Info.plist */,
+				D868A94518C975FF0091FE2F /* InfoPlist.strings */,
+				D868A94818C975FF0091FE2F /* main.m */,
+				D868A94A18C975FF0091FE2F /* LWWebBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D868A95B18C975FF0091FE2F /* LWWebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				D868A96118C975FF0091FE2F /* LWWebBrowserTests.m */,
+				D868A95C18C975FF0091FE2F /* Supporting Files */,
+			);
+			path = LWWebBrowserTests;
+			sourceTree = "<group>";
+		};
+		D868A95C18C975FF0091FE2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D868A95D18C975FF0091FE2F /* LWWebBrowserTests-Info.plist */,
+				D868A95E18C975FF0091FE2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D868A99518C978970091FE2F /* LWWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D868A96B18C9764C0091FE2F /* LWWebBrowser.h */,
+				D868A96C18C9764C0091FE2F /* LWWebBrowser.m */,
+				D868A99618C978A60091FE2F /* LWWebBrowser.bundle */,
+			);
+			name = LWWebBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D868A93818C975FF0091FE2F /* LWWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D868A96518C975FF0091FE2F /* Build configuration list for PBXNativeTarget "LWWebBrowser" */;
+			buildPhases = (
+				D868A93518C975FF0091FE2F /* Sources */,
+				D868A93618C975FF0091FE2F /* Frameworks */,
+				D868A93718C975FF0091FE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWWebBrowser;
+			productName = LWWebBrowser;
+			productReference = D868A93918C975FF0091FE2F /* LWWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D868A95318C975FF0091FE2F /* LWWebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D868A96818C975FF0091FE2F /* Build configuration list for PBXNativeTarget "LWWebBrowserTests" */;
+			buildPhases = (
+				D868A95018C975FF0091FE2F /* Sources */,
+				D868A95118C975FF0091FE2F /* Frameworks */,
+				D868A95218C975FF0091FE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D868A95A18C975FF0091FE2F /* PBXTargetDependency */,
+			);
+			name = LWWebBrowserTests;
+			productName = LWWebBrowserTests;
+			productReference = D868A95418C975FF0091FE2F /* LWWebBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D868A93118C975FF0091FE2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LiYonghui;
+				TargetAttributes = {
+					D868A95318C975FF0091FE2F = {
+						TestTargetID = D868A93818C975FF0091FE2F;
+					};
+				};
+			};
+			buildConfigurationList = D868A93418C975FF0091FE2F /* Build configuration list for PBXProject "LWWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D868A93018C975FF0091FE2F;
+			productRefGroup = D868A93A18C975FF0091FE2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D868A93818C975FF0091FE2F /* LWWebBrowser */,
+				D868A95318C975FF0091FE2F /* LWWebBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D868A93718C975FF0091FE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A99718C978A60091FE2F /* LWWebBrowser.bundle in Resources */,
+				D868A94718C975FF0091FE2F /* InfoPlist.strings in Resources */,
+				D868A94F18C975FF0091FE2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868A95218C975FF0091FE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A96018C975FF0091FE2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D868A93518C975FF0091FE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A96D18C9764C0091FE2F /* LWWebBrowser.m in Sources */,
+				D868A94D18C975FF0091FE2F /* AppDelegate.m in Sources */,
+				D868A99A18C9AB5D0091FE2F /* LWNavigationController.m in Sources */,
+				D868A94918C975FF0091FE2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868A95018C975FF0091FE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868A96218C975FF0091FE2F /* LWWebBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D868A95A18C975FF0091FE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D868A93818C975FF0091FE2F /* LWWebBrowser */;
+			targetProxy = D868A95918C975FF0091FE2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D868A94518C975FF0091FE2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D868A94618C975FF0091FE2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D868A95E18C975FF0091FE2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D868A95F18C975FF0091FE2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D868A96318C975FF0091FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D868A96418C975FF0091FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D868A96618C975FF0091FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LWWebBrowser/LWWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "LWWebBrowser/LWWebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D868A96718C975FF0091FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LWWebBrowser/LWWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "LWWebBrowser/LWWebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D868A96918C975FF0091FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LWWebBrowser.app/LWWebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LWWebBrowser/LWWebBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LWWebBrowserTests/LWWebBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D868A96A18C975FF0091FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LWWebBrowser.app/LWWebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LWWebBrowser/LWWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "LWWebBrowserTests/LWWebBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D868A93418C975FF0091FE2F /* Build configuration list for PBXProject "LWWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868A96318C975FF0091FE2F /* Debug */,
+				D868A96418C975FF0091FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D868A96518C975FF0091FE2F /* Build configuration list for PBXNativeTarget "LWWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868A96618C975FF0091FE2F /* Debug */,
+				D868A96718C975FF0091FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D868A96818C975FF0091FE2F /* Build configuration list for PBXNativeTarget "LWWebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868A96918C975FF0091FE2F /* Debug */,
+				D868A96A18C975FF0091FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D868A93118C975FF0091FE2F /* Project object */;
+}
