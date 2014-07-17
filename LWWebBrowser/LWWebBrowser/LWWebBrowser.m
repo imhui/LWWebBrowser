@@ -89,6 +89,10 @@ static const CGFloat LWWebBrowserToolbarHeight = 44;
     [_webView loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
+- (void)loadHTMLString:(NSString *)string {
+    [_webView loadHTMLString:string baseURL:nil];
+}
+
 #pragma mark - Initialize Views
 - (void)initNavigationBar {
     

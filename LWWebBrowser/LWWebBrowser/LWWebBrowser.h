@@ -33,6 +33,12 @@ typedef enum _LWWebBrowserMode {
  */
 - (void)loadURL:(NSURL *)url;
 
+/**
+ *  load string
+ *
+ *  @param string string
+ */
+- (void)loadHTMLString:(NSString *)string;
 
 
 @end
