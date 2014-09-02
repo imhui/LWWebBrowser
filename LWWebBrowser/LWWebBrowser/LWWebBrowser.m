@@ -104,7 +104,7 @@ static const CGFloat LWWebBrowserToolbarHeight = 44;
     }
     _modalNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), navigationBarHeight)];
     _modalNavigationBar.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    _modalNavigationBar.barStyle = UIBarStyleBlackOpaque;
+//    _modalNavigationBar.barStyle = UIBarStyleBlackOpaque;
     [self.view addSubview:_modalNavigationBar];
     
     _modalNavigationItem = [[UINavigationItem alloc] initWithTitle:@""];
