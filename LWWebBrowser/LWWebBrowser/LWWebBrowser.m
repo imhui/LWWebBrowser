@@ -265,8 +265,10 @@ static const CGFloat LWWebBrowserToolbarHeight = 44;
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     
-    NSString *pageTitle = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-    self.navigationItem.title = pageTitle;
+    if (self.showTitle) {
+        NSString *pageTitle = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+        self.navigationItem.title = pageTitle;
+    }
     
     [self hideActivityIndicators];
     [self reloadButtonItemsStatus];

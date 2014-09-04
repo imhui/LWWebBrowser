@@ -16,6 +16,7 @@ typedef enum _LWWebBrowserMode {
 
 @interface LWWebBrowser : UIViewController
 
+@property (nonatomic, assign) BOOL showTitle;
 /**
 *  initialize web browser
 *
